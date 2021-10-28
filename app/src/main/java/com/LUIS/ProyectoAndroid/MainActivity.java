@@ -1,4 +1,4 @@
-package com.example.holamundo;
+package com.LUIS.ProyectoAndroid;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
 
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if(keyCode == KeyEvent.KEYCODE_BACK) {
-            new AlertDialog.Builder(this, R.style.Theme_AppCompat_DayNight_Dialog_Alert)
+            new AlertDialog.Builder(this, R.style.Theme_AppCompat_Dialog_Alert)
                     .setIcon(android.R.drawable.ic_dialog_alert)
                     .setTitle("Información")
                     .setMessage("¿Desea cerrar la aplicación?")
